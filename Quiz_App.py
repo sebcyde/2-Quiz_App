@@ -5,13 +5,13 @@ if playing != 'y':
 
 print("Okay, let's play!")
 answer = input('What does CPU stand for? ')
-if answer == 'central processing unit':
+if answer.lower() == 'central processing unit':
     print('Correct!')
 else: print("Incorrect!")
 
 print("Not bad. Let's try another one!")
 answer2 = input('What is the best front end framework? ')
-if answer2 == 'react':
+if answer2.lower() == 'react':
     print('Right again!')
 else: print("Incorrect!")
 
@@ -21,17 +21,17 @@ if continueplaying != 'y':
 
 print("Alright, let's do some general knowledge instead.")
 answer3 = input('In which country does the Louvre reside? ')
-if answer3 == 'france':
+if answer3.lower() == 'france':
     print('Nice!')
 else: print("ahh too bad, that not correct")
 
 answer4 = input('Next, who painted the Mona Lisa? ')
-if answer4 == 'leonardo da vinci':
+if answer4.lower() == 'leonardo da vinci':
     print('okay, lets make them more difficult then...')
 else: print("ahh too bad, that not correct")
 
 answer5 = input('Another art one, who created the Ascension of Polka Dots, 2006? ')
-if answer5 == 'yayoi kusama':
+if answer5.lower() == 'yayoi kusama':
     print('I know you googled that... but okay, lets carry on!')
 else: print("ahh too bad. Try using google next time lol")
 
