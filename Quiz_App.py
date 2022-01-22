@@ -27,13 +27,13 @@ else: print("ahh too bad, that not correct")
 
 answer4 = input('Next, who painted the Mona Lisa? ')
 if answer4 == 'leonardo da vinci':
-    print('okay, okay lets make them more difficult then...')
+    print('okay, lets make them more difficult then...')
 else: print("ahh too bad, that not correct")
 
 answer5 = input('Another art one, who created the Ascension of Polka Dots, 2006? ')
 if answer5 == 'yayoi kusama':
     print('I know you googled that... but okay, lets carry on!')
-else: print("ahh too bad, that not correct. Try using google next time lol")
+else: print("ahh too bad. Try using google next time lol")
 
 # answer6 = input('Another art one, who created the Ascension of Polka Dots, 2006? ')
 # if answer6 == 'yayoi kusama':
